@@ -2,6 +2,7 @@
 @import "./base/container.css";
 @import "./utils/visually-hidden.css";
 @import "./utils/variables.css";
+@import "./utils/retina.css";
 @import "./layout/header.css";
 @import "./layout/first-section.css";
 @import "./layout/second-section.css";

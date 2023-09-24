@@ -1,0 +1,7 @@
+@media screen and (min-resolution: 192dpi), 
+screen and (min-resolution:2dppx), 
+screen and (min-device-pixel-ratio: 2) {
+    .main-section {
+        background-image:url(../../images/img-name@2x.jpg);
+    }
+}
