@@ -12,7 +12,7 @@
 .portfolio-list {
     display: flex;    
     flex-wrap: wrap;
-    /* gap: 32px; */
+    row-gap: 48px;
 }
 
 .portfolio-pictures-item {
@@ -23,7 +23,6 @@
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    width: 288px;
 }
 
 .portfolio-pictures-name {
@@ -51,10 +50,6 @@
     row-gap: 72px;
 }
 
-.name-and-category {
-width: 356px;
-}
-
 }
 
 @media screen and (min-width: 1158px) {
@@ -66,6 +61,7 @@ width: 356px;
 
 .portfolio-list {
     row-gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio-list-img-wrapper {
@@ -74,6 +70,7 @@ width: 356px;
 }
 
 .overlay {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;

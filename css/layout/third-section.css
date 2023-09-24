@@ -18,11 +18,10 @@
 }
 
 .company-team-list {
-    padding-bottom: 0px;
     justify-content: center;
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
+    row-gap: 72px;
 }
 
 .company-team-item {
@@ -90,6 +89,13 @@
     fill: #f4f4fd;
 }
 
+}
+
+@media screen and (min-width: 768px) {
+    .company-team-list {
+        row-gap: 64px;
+        column-gap: 24px;
+        }
 }
 
 

@@ -167,11 +167,11 @@ footer {
 }
 
 .footer-section {
-    margin-left: 108px;
     text-align: left;
     flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
+    max-width: 584px;
 }
 
 .logotype-footer-section {
@@ -204,6 +204,7 @@ footer {
     margin-right: 16px;
     column-gap: 0;
     row-gap: 0;
+    max-width: none;
 }
 
 .footer-section-container {

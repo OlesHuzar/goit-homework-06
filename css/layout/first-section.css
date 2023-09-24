@@ -5,29 +5,30 @@
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../../images/img-name.jpg);
     background-size: cover;
-    max-width: 320px;
+    width: 320px;
     background-repeat: no-repeat;
     background-position: center;    
     margin-left: auto;
     margin-right: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .main-text {
+    width: 288px;
     color: #FFF;
     text-align: center;
     font-family: Roboto, sans-serif;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    max-width: 288px;    
     margin-bottom: 72px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .main-button { 
@@ -68,10 +69,12 @@
 @media screen and (min-width: 768px) {
 
 .main-section {    
-    max-width: 768px;
+    width: 768px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
 }
 
 .main-text {
@@ -87,7 +90,9 @@
 @media screen and (min-width: 1158px) {
 
 .main-section {
-    max-width: 1440px;
+    width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-text {

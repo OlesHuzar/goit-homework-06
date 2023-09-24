@@ -6,7 +6,11 @@
 }
 
 .features-item {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+}
+
+.features-item-last {
+    margin-bottom: 0;
 }
 
 .features-icon {
@@ -27,7 +31,6 @@
 }
 
 .features-text {
-    display: flex;
     width: 288px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -35,7 +38,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    /* padding-bottom: 72px; */
 }
 
 }
@@ -51,7 +53,7 @@
 }
 
 .features-item {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .features-name {
