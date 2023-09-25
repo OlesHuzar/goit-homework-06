@@ -1,7 +1,40 @@
-@media screen and (min-resolution: 192dpi), 
-screen and (min-resolution:2dppx), 
-screen and (min-device-pixel-ratio: 2) {
+@media screen and (max-width: 767px) {
     .main-section {
-        background-image:url(../../images/img-name@2x.jpg);
+        background-image: url(../../images/Main-photo/img-name-mobile.jpg);
+    }
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px), 
+screen and (min-resolution:2dppx) and (max-width: 767px), 
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .main-section {
+        background-image:url(../../images/Main-photo/img-name-mobile@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-section {
+        background-image: url(../../images/Main-photo/img-name-tablet.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution:2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .main-section {
+        background-image: url(../../images/Main-photo/img-name-tablet@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .main-section {
+        background-image: url(../../images/Main-photo/img-name-laptop.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution:2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .main-section {
+        background-image: url(../../images/Main-photo/img-name-laptop@2x.png);
     }
 }

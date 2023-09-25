@@ -8,7 +8,7 @@ footer {
 
 .footer-section {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
@@ -199,9 +199,9 @@ footer {
 }
 
 .footer-section {
+    display: flex;
     flex-wrap: nowrap;
-    margin-left: 16px;
-    margin-right: 16px;
+    align-items: baseline;
     column-gap: 0;
     row-gap: 0;
     max-width: none;
