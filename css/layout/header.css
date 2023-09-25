@@ -44,16 +44,8 @@
     border: none;
     background-color: transparent;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 16px;
-    right: 16px;
     line-height: 0;
-    width: 24px;
-    height: 24px;
-}
+} 
 
 }
 

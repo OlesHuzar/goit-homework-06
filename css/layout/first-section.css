@@ -79,6 +79,7 @@
     width: 496px;   
     text-transform: none;   
     margin-bottom: 36px;    
+    font-size: 56px;
 }
 
 }
@@ -95,8 +96,6 @@
 }
 
 .main-text {
-    font-size: 56px;
-    max-width: 496px;
     margin-bottom: 48px;
 }
 
